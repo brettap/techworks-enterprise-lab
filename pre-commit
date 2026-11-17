@@ -1,0 +1,61 @@
+#!/bin/sh
+# Pre-commit sensitive-data check for a public repository.
+# Scans only the lines being added in this commit and blocks the commit
+# if any look like secrets, real network details or personal identifiers.
+#
+# Enable once per clone:   git config core.hooksPath tools/hooks
+# Personal words to block: one per line in .git/info/sensitive-words
+#                          (that file lives inside .git, so it is never pushed)
+
+added=$(git diff --cached --no-color -U0 --diff-filter=ACM -- . ':(exclude)tools/hooks' | grep -E '^\+' | grep -vE '^\+\+\+ ')
+
+[ -z "$added" ] && exit 0
+
+found=0
+
+check() {
+    label="$1"
+    pattern="$2"
+    matches=$(printf '%s\n' "$added" | grep -inE -- "$pattern")
+    if [ -n "$matches" ]; then
+        echo ""
+        echo "BLOCKED: $label"
+        printf '%s\n' "$matches" | head -n 5
+        found=1
+    fi
+}
+
+# Real private network addresses (RFC 1918). Use 192.0.2.x or a placeholder instead.
+check "private IP address" '(^|[^0-9.])(10\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}|192\.168\.[0-9]{1,3}\.[0-9]{1,3}|172\.(1[6-9]|2[0-9]|3[01])\.[0-9]{1,3}\.[0-9]{1,3})([^0-9]|$)'
+
+# A password written out as a quoted value, e.g. password = "abc" or -Password 'abc'
+check "password value" '(password|passwd|pwd)["'"'"']?[[:space:]]*([:=]|[[:space:]])[[:space:]]*["'"'"'][^"'"'"'$]{3,}["'"'"']'
+
+# Plain-text secure strings, e.g. ConvertTo-SecureString "abc" -AsPlainText
+check "plain-text secure string" 'ConvertTo-SecureString[[:space:]]+["'"'"'].*-AsPlainText'
+
+# vmrun with a literal VM password instead of a variable
+check "vmrun literal password" '-vp[[:space:]]+[^$[:space:]]'
+
+# Private keys and certificates pasted into files
+check "private key" '-----BEGIN [A-Z ]*PRIVATE KEY-----'
+
+# Common token formats
+check "access token" '(ghp_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|AKIA[0-9A-Z]{16}|xox[baprs]-[A-Za-z0-9-]{10,}|sk-[A-Za-z0-9]{20,})'
+
+# Personal words kept out of the repo (account names, real hostnames, emails)
+words_file="$(git rev-parse --git-dir)/info/sensitive-words"
+if [ -f "$words_file" ]; then
+    while IFS= read -r word || [ -n "$word" ]; do
+        case "$word" in ''|'#'*) continue ;; esac
+        check "personal word from sensitive-words list" "$word"
+    done < "$words_file"
+fi
+
+if [ "$found" -ne 0 ]; then
+    echo ""
+    echo "Commit stopped. Replace the lines above with placeholders, then commit again."
+    exit 1
+fi
+
+exit 0
