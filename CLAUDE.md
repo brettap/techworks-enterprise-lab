@@ -84,7 +84,15 @@ This repository is public. Before every commit:
 - **Scrub screenshots** of IP addresses, hostnames of personal machines, and account names before adding them.
 - Scripts must read secrets at run time (for example `Read-Host -AsSecureString`, or a DPAPI-protected file kept outside the repository). Never write a secret into a script.
 
-The pre-commit hook in `tools/hooks/pre-commit` scans staged changes and blocks the commit if it finds one of these. If it blocks a commit, fix the content. Do not bypass it with `--no-verify`, and do not weaken its patterns.
+The pre-commit hook in `tools/hooks/pre-commit` scans staged changes and blocks the commit if it finds one of these. It runs only after this is set once in each clone of the repository:
+
+```
+git config core.hooksPath tools/hooks
+```
+
+Personal strings to block (account names, real hostnames, email addresses) go one per line in `.git/info/sensitive-words`. That file lives inside `.git`, so it is never pushed. Never copy its contents into a tracked file.
+
+If the hook blocks a commit, fix the content. Do not bypass it with `--no-verify`, and do not weaken its patterns.
 
 ## Commits
 

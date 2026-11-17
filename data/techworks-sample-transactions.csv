@@ -1,0 +1,126 @@
+Date,Number,Description,Account,Amount,Transfer Account
+2026-08-01,,Opening balance - checking,Assets:Current Assets:Checking Account,42500.00,Equity:Opening Balances
+2026-08-01,,Opening balance - savings,Assets:Current Assets:Savings Account,15000.00,Equity:Opening Balances
+2026-08-01,2102,Rent - Parkside Commercial Properties,Assets:Current Assets:Checking Account,-2400.00,Expenses:Rent
+2026-08-02,2105,Petty cash top-up,Assets:Current Assets:Checking Account,-200.00,Assets:Current Assets:Petty Cash
+2026-08-02,DEP,Invoice 1041 - Lakeview Pediatrics,Assets:Current Assets:Checking Account,5383.03,Income:Sales
+2026-08-03,ACH,Liability insurance premium - Sentinel Mutual,Assets:Current Assets:Checking Account,-215.00,Expenses:Insurance:Liability Insurance
+2026-08-03,CARD,Printer repair - QuickFix IT,Liabilities:Credit Card,-209.40,Expenses:Repairs:Computer Repairs
+2026-08-04,DEP,Invoice 1042 - Maple Grove Church,Assets:Current Assets:Checking Account,913.76,Income:Sales
+2026-08-04,CARD,Printer repair - QuickFix IT,Liabilities:Credit Card,-220.69,Expenses:Repairs:Computer Repairs
+2026-08-05,ACH,Internet service - Clearwave Fiber,Assets:Current Assets:Checking Account,-129.99,Expenses:Utilities:Internet
+2026-08-05,DEP,Invoice 1043 - Maple Grove Church,Assets:Current Assets:Checking Account,4620.61,Income:Sales
+2026-08-07,ACH,Phone service - Tri-County Telecom,Assets:Current Assets:Checking Account,-84.50,Expenses:Utilities:Phone
+2026-08-07,CASH,Parking,Assets:Current Assets:Petty Cash,-22.92,Expenses:Auto:Parking
+2026-08-09,DEP,Invoice 1044 - Pinecrest Realty,Assets:Current Assets:Checking Account,3054.56,Income:Sales
+2026-08-10,ACH,Electric - Metro Power & Light,Assets:Current Assets:Checking Account,-280.72,Expenses:Utilities:Electric
+2026-08-12,ACH,Water and sewer - City Utilities,Assets:Current Assets:Checking Account,-61.07,Expenses:Utilities:Water
+2026-08-13,CARD,Client lunch,Liabilities:Credit Card,-90.34,Expenses:Travel and Entertainment:Meals
+2026-08-14,2103,Janitorial service - SparkleClean,Assets:Current Assets:Checking Account,-180.00,Expenses:Repairs:Janitorial Expenses
+2026-08-14,CARD,Software subscription - CloudDesk,Liabilities:Credit Card,-59.00,Expenses:Dues and Subscriptions
+2026-08-15,ACH,Payroll - staff wages,Assets:Current Assets:Checking Account,-6879.14,Expenses:Payroll Expenses
+2026-08-15,ACH,Payroll - employer FICA,Assets:Current Assets:Checking Account,-536.08,Expenses:Taxes:Emp-FICA
+2026-08-16,DEP,Invoice 1045 - Summit Ridge Builders,Assets:Current Assets:Checking Account,6288.51,Income:Sales
+2026-08-16,CARD,Printer repair - QuickFix IT,Liabilities:Credit Card,-228.57,Expenses:Repairs:Computer Repairs
+2026-08-17,DEP,Invoice 1046 - Summit Ridge Builders,Assets:Current Assets:Checking Account,5318.50,Income:Sales
+2026-08-18,2104,Monthly bookkeeping - Alder & Finch CPAs,Assets:Current Assets:Checking Account,-350.00,Expenses:Professional Fees:Accounting
+2026-08-18,CARD,Client lunch,Liabilities:Credit Card,-62.88,Expenses:Travel and Entertainment:Meals
+2026-08-19,DEP,Invoice 1047 - Riverbend Auto Body,Assets:Current Assets:Checking Account,4389.33,Income:Sales
+2026-08-19,CARD,Office supplies - Paperworks Depot,Liabilities:Credit Card,-166.61,Expenses:Office Supplies
+2026-08-20,ACH,Transfer to savings,Assets:Current Assets:Checking Account,-1000.00,Assets:Current Assets:Savings Account
+2026-08-20,DEP,Invoice 1048 - Summit Ridge Builders,Assets:Current Assets:Checking Account,1347.64,Income:Sales
+2026-08-20,CASH,Parking,Assets:Current Assets:Petty Cash,-37.84,Expenses:Auto:Parking
+2026-08-22,ACH,Credit card payment,Assets:Current Assets:Checking Account,-810.36,Liabilities:Credit Card
+2026-08-25,DEP,Invoice 1049 - Riverbend Auto Body,Assets:Current Assets:Checking Account,2471.28,Income:Sales
+2026-08-25,CASH,Postage stamps,Assets:Current Assets:Petty Cash,-28.56,Expenses:Postage and Delivery
+2026-08-26,DEP,Invoice 1050 - Maple Grove Church,Assets:Current Assets:Checking Account,1631.93,Income:Sales
+2026-08-26,CASH,Parking,Assets:Current Assets:Petty Cash,-30.27,Expenses:Auto:Parking
+2026-08-27,DEP,Invoice 1051 - Cedar Point Insurance,Assets:Current Assets:Checking Account,2564.94,Income:Sales
+2026-08-29,DEP,Invoice 1052 - Summit Ridge Builders,Assets:Current Assets:Checking Account,2867.66,Income:Sales
+2026-08-31,ACH,Payroll - staff wages,Assets:Current Assets:Checking Account,-6735.92,Expenses:Payroll Expenses
+2026-08-31,ACH,Payroll - employer FICA,Assets:Current Assets:Checking Account,-518.25,Expenses:Taxes:Emp-FICA
+2026-08-31,,Bank service charge,Assets:Current Assets:Checking Account,-12.00,Expenses:Bank Service Charge
+2026-08-31,,Savings interest,Assets:Current Assets:Savings Account,4.93,Income:Interest Income
+2026-08-31,CARD,Fuel - delivery van,Liabilities:Credit Card,-74.00,Expenses:Auto:Fuel
+2026-09-01,2106,Rent - Parkside Commercial Properties,Assets:Current Assets:Checking Account,-2400.00,Expenses:Rent
+2026-09-02,2109,Petty cash top-up,Assets:Current Assets:Checking Account,-200.00,Assets:Current Assets:Petty Cash
+2026-09-02,DEP,Invoice 1053 - Riverbend Auto Body,Assets:Current Assets:Checking Account,5994.62,Income:Sales
+2026-09-03,ACH,Liability insurance premium - Sentinel Mutual,Assets:Current Assets:Checking Account,-215.00,Expenses:Insurance:Liability Insurance
+2026-09-03,DEP,Invoice 1054 - Summit Ridge Builders,Assets:Current Assets:Checking Account,5964.38,Income:Sales
+2026-09-04,CARD,Fuel - delivery van,Liabilities:Credit Card,-57.77,Expenses:Auto:Fuel
+2026-09-04,CASH,Parking,Assets:Current Assets:Petty Cash,-30.83,Expenses:Auto:Parking
+2026-09-05,ACH,Internet service - Clearwave Fiber,Assets:Current Assets:Checking Account,-129.99,Expenses:Utilities:Internet
+2026-09-06,DEP,Invoice 1055 - Lakeview Pediatrics,Assets:Current Assets:Checking Account,4694.20,Income:Sales
+2026-09-07,ACH,Phone service - Tri-County Telecom,Assets:Current Assets:Checking Account,-84.50,Expenses:Utilities:Phone
+2026-09-07,CARD,Office supplies - Paperworks Depot,Liabilities:Credit Card,-60.28,Expenses:Office Supplies
+2026-09-08,DEP,Invoice 1056 - Maple Grove Church,Assets:Current Assets:Checking Account,3687.53,Income:Sales
+2026-09-08,CASH,Courier fee,Assets:Current Assets:Petty Cash,-25.65,Expenses:Postage and Delivery
+2026-09-09,CARD,Client lunch,Liabilities:Credit Card,-67.48,Expenses:Travel and Entertainment:Meals
+2026-09-10,ACH,Electric - Metro Power & Light,Assets:Current Assets:Checking Account,-334.31,Expenses:Utilities:Electric
+2026-09-10,DEP,Invoice 1057 - Maple Grove Church,Assets:Current Assets:Checking Account,5334.17,Income:Sales
+2026-09-11,DEP,Invoice 1058 - Riverbend Auto Body,Assets:Current Assets:Checking Account,4534.63,Income:Sales
+2026-09-12,ACH,Water and sewer - City Utilities,Assets:Current Assets:Checking Account,-72.95,Expenses:Utilities:Water
+2026-09-12,CARD,Office supplies - Paperworks Depot,Liabilities:Credit Card,-174.23,Expenses:Office Supplies
+2026-09-14,2107,Janitorial service - SparkleClean,Assets:Current Assets:Checking Account,-180.00,Expenses:Repairs:Janitorial Expenses
+2026-09-14,DEP,Invoice 1059 - Brightline Dental,Assets:Current Assets:Checking Account,5464.29,Income:Sales
+2026-09-14,CARD,Fuel - delivery van,Liabilities:Credit Card,-48.90,Expenses:Auto:Fuel
+2026-09-14,CASH,Parking,Assets:Current Assets:Petty Cash,-27.17,Expenses:Auto:Parking
+2026-09-15,ACH,Payroll - staff wages,Assets:Current Assets:Checking Account,-7042.60,Expenses:Payroll Expenses
+2026-09-15,ACH,Payroll - employer FICA,Assets:Current Assets:Checking Account,-519.03,Expenses:Taxes:Emp-FICA
+2026-09-15,DEP,Invoice 1060 - Summit Ridge Builders,Assets:Current Assets:Checking Account,3389.99,Income:Sales
+2026-09-15,CASH,Coffee and supplies,Assets:Current Assets:Petty Cash,-9.04,Expenses:Office Supplies
+2026-09-16,DEP,Invoice 1061 - Harbor Street Law,Assets:Current Assets:Checking Account,3283.40,Income:Sales
+2026-09-16,CARD,Printer repair - QuickFix IT,Liabilities:Credit Card,-91.92,Expenses:Repairs:Computer Repairs
+2026-09-17,DEP,Invoice 1062 - Riverbend Auto Body,Assets:Current Assets:Checking Account,2286.51,Income:Sales
+2026-09-18,2108,Monthly bookkeeping - Alder & Finch CPAs,Assets:Current Assets:Checking Account,-350.00,Expenses:Professional Fees:Accounting
+2026-09-20,ACH,Transfer to savings,Assets:Current Assets:Checking Account,-1000.00,Assets:Current Assets:Savings Account
+2026-09-21,CARD,Printer repair - QuickFix IT,Liabilities:Credit Card,-233.24,Expenses:Repairs:Computer Repairs
+2026-09-22,ACH,Credit card payment,Assets:Current Assets:Checking Account,-791.85,Liabilities:Credit Card
+2026-09-24,DEP,Invoice 1063 - Northgate Veterinary,Assets:Current Assets:Checking Account,6218.34,Income:Sales
+2026-09-24,CARD,Flyer printing - PrintHouse,Liabilities:Credit Card,-147.28,Expenses:Printing and Reproduction
+2026-09-27,DEP,Invoice 1064 - Maple Grove Church,Assets:Current Assets:Checking Account,6067.76,Income:Sales
+2026-09-30,ACH,Payroll - staff wages,Assets:Current Assets:Checking Account,-6840.73,Expenses:Payroll Expenses
+2026-09-30,ACH,Payroll - employer FICA,Assets:Current Assets:Checking Account,-539.95,Expenses:Taxes:Emp-FICA
+2026-09-30,,Bank service charge,Assets:Current Assets:Checking Account,-12.00,Expenses:Bank Service Charge
+2026-09-30,,Savings interest,Assets:Current Assets:Savings Account,5.07,Income:Interest Income
+2026-10-01,2110,Rent - Parkside Commercial Properties,Assets:Current Assets:Checking Account,-2400.00,Expenses:Rent
+2026-10-02,2113,Petty cash top-up,Assets:Current Assets:Checking Account,-200.00,Assets:Current Assets:Petty Cash
+2026-10-02,DEP,Invoice 1065 - Riverbend Auto Body,Assets:Current Assets:Checking Account,3491.94,Income:Sales
+2026-10-02,CARD,Flyer printing - PrintHouse,Liabilities:Credit Card,-163.51,Expenses:Printing and Reproduction
+2026-10-03,ACH,Liability insurance premium - Sentinel Mutual,Assets:Current Assets:Checking Account,-215.00,Expenses:Insurance:Liability Insurance
+2026-10-03,DEP,Invoice 1066 - Lakeview Pediatrics,Assets:Current Assets:Checking Account,3348.28,Income:Sales
+2026-10-04,DEP,Invoice 1067 - Harbor Street Law,Assets:Current Assets:Checking Account,3611.51,Income:Sales
+2026-10-05,ACH,Internet service - Clearwave Fiber,Assets:Current Assets:Checking Account,-129.99,Expenses:Utilities:Internet
+2026-10-05,DEP,Invoice 1068 - Maple Grove Church,Assets:Current Assets:Checking Account,4022.48,Income:Sales
+2026-10-07,ACH,Phone service - Tri-County Telecom,Assets:Current Assets:Checking Account,-84.50,Expenses:Utilities:Phone
+2026-10-07,CARD,Fuel - delivery van,Liabilities:Credit Card,-66.41,Expenses:Auto:Fuel
+2026-10-08,DEP,Invoice 1069 - Northgate Veterinary,Assets:Current Assets:Checking Account,1704.09,Income:Sales
+2026-10-09,CASH,Parking,Assets:Current Assets:Petty Cash,-41.97,Expenses:Auto:Parking
+2026-10-10,ACH,Electric - Metro Power & Light,Assets:Current Assets:Checking Account,-330.17,Expenses:Utilities:Electric
+2026-10-12,ACH,Water and sewer - City Utilities,Assets:Current Assets:Checking Account,-72.31,Expenses:Utilities:Water
+2026-10-12,CASH,Parking,Assets:Current Assets:Petty Cash,-16.36,Expenses:Auto:Parking
+2026-10-13,DEP,Invoice 1070 - Riverbend Auto Body,Assets:Current Assets:Checking Account,1998.77,Income:Sales
+2026-10-14,2111,Janitorial service - SparkleClean,Assets:Current Assets:Checking Account,-180.00,Expenses:Repairs:Janitorial Expenses
+2026-10-14,DEP,Invoice 1071 - Cedar Point Insurance,Assets:Current Assets:Checking Account,2717.12,Income:Sales
+2026-10-15,ACH,Payroll - staff wages,Assets:Current Assets:Checking Account,-6974.20,Expenses:Payroll Expenses
+2026-10-15,ACH,Payroll - employer FICA,Assets:Current Assets:Checking Account,-537.62,Expenses:Taxes:Emp-FICA
+2026-10-15,CARD,Fuel - delivery van,Liabilities:Credit Card,-72.56,Expenses:Auto:Fuel
+2026-10-15,CASH,Courier fee,Assets:Current Assets:Petty Cash,-17.73,Expenses:Postage and Delivery
+2026-10-16,CARD,Printer repair - QuickFix IT,Liabilities:Credit Card,-223.67,Expenses:Repairs:Computer Repairs
+2026-10-18,2112,Monthly bookkeeping - Alder & Finch CPAs,Assets:Current Assets:Checking Account,-350.00,Expenses:Professional Fees:Accounting
+2026-10-18,CASH,Parking,Assets:Current Assets:Petty Cash,-22.00,Expenses:Auto:Parking
+2026-10-20,ACH,Transfer to savings,Assets:Current Assets:Checking Account,-1000.00,Assets:Current Assets:Savings Account
+2026-10-20,DEP,Invoice 1072 - Cedar Point Insurance,Assets:Current Assets:Checking Account,2144.96,Income:Sales
+2026-10-21,CARD,Fuel - delivery van,Liabilities:Credit Card,-45.06,Expenses:Auto:Fuel
+2026-10-22,ACH,Credit card payment,Assets:Current Assets:Checking Account,-882.80,Liabilities:Credit Card
+2026-10-22,DEP,Invoice 1073 - Harbor Street Law,Assets:Current Assets:Checking Account,3887.81,Income:Sales
+2026-10-23,DEP,Invoice 1074 - Brightline Dental,Assets:Current Assets:Checking Account,1934.99,Income:Sales
+2026-10-23,CARD,Fuel - delivery van,Liabilities:Credit Card,-55.16,Expenses:Auto:Fuel
+2026-10-25,CARD,Client lunch,Liabilities:Credit Card,-64.24,Expenses:Travel and Entertainment:Meals
+2026-10-28,DEP,Invoice 1075 - Northgate Veterinary,Assets:Current Assets:Checking Account,1101.06,Income:Sales
+2026-10-28,CARD,Office supplies - Paperworks Depot,Liabilities:Credit Card,-124.30,Expenses:Office Supplies
+2026-10-29,DEP,Invoice 1076 - Riverbend Auto Body,Assets:Current Assets:Checking Account,6016.81,Income:Sales
+2026-10-31,ACH,Payroll - staff wages,Assets:Current Assets:Checking Account,-6807.10,Expenses:Payroll Expenses
+2026-10-31,ACH,Payroll - employer FICA,Assets:Current Assets:Checking Account,-523.54,Expenses:Taxes:Emp-FICA
+2026-10-31,,Bank service charge,Assets:Current Assets:Checking Account,-12.00,Expenses:Bank Service Charge
+2026-10-31,,Savings interest,Assets:Current Assets:Savings Account,4.88,Income:Interest Income
